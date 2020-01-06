@@ -176,11 +176,11 @@ function score(){
     clearBoard()
     if (winner === "X"){
         xScore++
-        xo.textContent = "It's X's turn to play."
+        xo.textContent = "Snice X won it's X's turn to play."
     } else {
         turn++
         oScore++
-        xo.textContent = "It's O's turn to play."
+        xo.textContent = "Since O won it's O's turn to play."
     }
     document.querySelector('#x').textContent = xScore
     document.querySelector('#o').textContent = oScore
